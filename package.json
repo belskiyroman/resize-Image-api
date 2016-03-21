@@ -1,0 +1,28 @@
+{
+  "name": "yalantis-test-js",
+  "version": "1.0.0",
+  "description": "User can use mobile app to upload image and pass resize parameters. In response he will receive resized image\nUser can see list of his earlier resized images with resize results and resizing parameters\n    When new user starts using mobile app it request server for unique key which is used to subscribe user requests\n    Api need to return proper errors in proper format for invalid user inputs\n    All images should be returned as link to image and width and height values",
+  "main": "index.js",
+  "config": {
+    "port": 8080
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com"
+  },
+  "author": "Alina Sheina",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.15.0",
+    "commander": "2.9.0",
+    "express": "4.13.4",
+    "image-size": "0.4.0",
+    "uuid": "2.0.1"
+  },
+  "devDependencies": {
+    "mocha": "2.4.5"
+  }
+}
